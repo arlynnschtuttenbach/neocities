@@ -2,20 +2,24 @@
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
 
-/*https://colorkit.co/color-palette-generator/9d3822-cd8474-ffcbbf-cacce5-8fcafb-48657e-24333f/*/
+/*
+ * https://colorkit.co/color-palette-generator/9d3822-24333f-545486-8474cd-cd8474-cbbfff-ffcbbf-cacce5-8fcafb-48657e/
+ */
 
 h1 {
   color: #cacce5;
 }
 
-body {
-  background-color: #48657e;
+html, body {
+  background: rgb(203,191,255);
+  background: linear-gradient(180deg, rgba(203,191,255,1) 0%, rgba(132,116,205,1) 50%, rgba(84,84,134,1) 100%) no-repeat;
   color: #cacce5;
   font-family: Verdana;
   text-align: center;
   display: flex;
   flex-flow: column;
-  margin: 0px;
+  margin: 0;
+  height: 100%;
 }
 
 .center {
@@ -24,13 +28,21 @@ body {
   margin: 0px;
 }
 
+.topBar, .middleBar {
+  background-color: #48657e;
+  min-width: 70%;
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 2px solid #24333f;
+}
+
 .leftBar, .rightBar {
   color: #24333f;
   background-color: #ffcbbf;
   border: 2px solid #9d3822;
-  padding: 8px 8px 8px 8px;
-  min-width: 12%;
-  max-width: 12%;
+  padding: 2px 2px 2px 2px;
+  width: 12%;
 }
 
 .leftBar {
@@ -38,6 +50,7 @@ body {
   border-radius: 0px 16px 16px 0px;
   float: left;
   text-align: left;
+  margin-left: 0px;
 }
 
 .rightBar {
@@ -45,14 +58,18 @@ body {
   border-radius: 16px 0px 0px 16px;
   float: right;
   text-align: right;
+  margin-right: 0px;
+}
+
+.topBar {
+  border-style: none solid none solid;
 }
 
 .middleBar {
-  min-width: 70%;
-  max-width: 50%;
   display: flex;
   flex-flow: column;
-  margin: 0 auto;
+  border-style: none solid solid solid;
+  border-radius: 0px 0px 16px 16px;
 }
 
 .intro {
@@ -68,6 +85,7 @@ em {
   border: 2px solid #9d3822;
   border-bottom-style: none;
   background-color: #ffcbbf;
+  border-radius: 16px 16px 0px 0px;
 }
 
 .link {
