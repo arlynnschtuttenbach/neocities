@@ -14,12 +14,45 @@ body {
   font-family: Verdana;
   text-align: center;
   display: flex;
-  justify-content: center;
+  flex-flow: column;
+  margin: 0px;
 }
 
 .center {
-  min-width: 640px;
+  display: inline-block;
+  flex-flow: row;
+  margin: 0px;
+}
+
+.leftBar, .rightBar {
+  color: #24333f;
+  background-color: #ffcbbf;
+  border: 2px solid #9d3822;
+  padding: 8px 8px 8px 8px;
+  min-width: 12%;
+  max-width: 25%;
+}
+
+.leftBar {
+  border-style: solid solid solid none;
+  border-radius: 0px 16px 16px 0px;
+  float: left;
+  text-align: left;
+}
+
+.rightBar {
+  border-style: solid none solid solid;
+  border-radius: 16px 0px 0px 16px;
+  float: right;
+  text-align: right;
+}
+
+.middleBar {
+  min-width: 70%;
   max-width: 50%;
+  display: flex;
+  flex-flow: column;
+  margin: 0 auto;
 }
 
 .intro {
