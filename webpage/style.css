@@ -27,18 +27,19 @@ em {
 
 .entry {
   background-color: white;
-  padding: 20px;
+  padding: 32px;
   margin-top: 20px;
 }
 
 .links {
   border: 2px solid #9d3822;
+  border-bottom-style: none;
   background-color: #ffcbbf;
 }
 
 .link {
   display: inline-block;
-  width: 96px;
+  width: 128px;
   margin: 0 auto;
 }
 
@@ -52,4 +53,15 @@ em {
   background-color: #cd8474;
   color: #24333f;
   border-radius: 4px;
+}
+
+.todoContainer {
+  border: 2px solid #9d3822;
+  border-radius: 0px 0px 16px 16px;
+  background: #cd8474;
+  color: #24333f;
+}
+
+.todo {
+  text-align: left;
 }
