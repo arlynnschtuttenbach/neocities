@@ -9,12 +9,20 @@
  *
  */
 
+@font-face {
+    font-family: 'Telespania';
+    src: url('./fonts/Telespania.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root {
   --light: #ffcdf3;
   --border: #dbffe3;
   --medium: #e89dd6;
   --heavy: #d17bbc;
   --hard: #693e5e;
+  --font: 'Telespania', Fallback, sans-serif;
 }
 
 h1 {
@@ -25,13 +33,17 @@ html, body {
   background: rgb(255,219,247);
   background: linear-gradient(180deg, rgba(255,219,247,1) 0%, rgba(209,123,188,1) 100%) no-repeat;
   color: var(--light);
-  font-family: Verdana;
+  font-family: var(--font);
   text-align: center;
   display: flex;
   flex-flow: column;
   margin: 0;
   min-height: 100%;
   max-height: max-contents;
+}
+
+button {
+    font-family: inherit;
 }
 
 .center {
