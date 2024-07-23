@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Telespania';
+    src: url('../fonts/Telespania.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: black;
+    color: white;
+    font-family: "Telespania";
+}

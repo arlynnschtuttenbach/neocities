@@ -85,6 +85,10 @@ button {
   margin-right: 0px;
 }
 
+.coolPeople {
+  margin: 16px -8px 0px -8px;
+}
+
 .topBar {
   border-style: none solid none solid;
 }
