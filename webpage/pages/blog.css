@@ -26,7 +26,7 @@ body {
 }
 
 .center {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-flow: column;
     flex-basis: 0;
@@ -38,6 +38,7 @@ body {
     border-radius: 8px;
     margin-bottom: 16px;
     width: max-content;
+    max-width: 100%;
 }
 
 .entryHeader {
