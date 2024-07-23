@@ -86,7 +86,12 @@ button {
 }
 
 .coolPeople {
-  margin: 16px -8px 0px -8px;
+  padding: 1px;
+  margin: 16px -10px 0px -10px;
+  border: 2px solid var(--hard);
+  border-style: dotted none dotted none;
+  background-color: var(--medium);
+
 }
 
 .topBar {
