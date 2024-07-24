@@ -32,6 +32,9 @@ h1 {
 html, body {
   background: rgb(255,219,247);
   background: linear-gradient(180deg, rgba(255,219,247,1) 0%, rgba(209,123,188,1) 100%) no-repeat;
+  background-image: url("./resources/background.jpg");
+  background-repeat: repeat;
+  background-blend-mode: difference;
   color: var(--light);
   font-family: var(--font);
   text-align: center;
@@ -154,4 +157,8 @@ em {
 
 .todo {
   text-align: left;
+}
+
+.bottomText {
+  color: var(--hard);
 }
