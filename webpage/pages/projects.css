@@ -19,6 +19,7 @@ html, body {
     background-color: var(--light);
     color: var(--hard);
     margin: 0px;
+    margin-top: 8px;
 }
 
 .container {
@@ -64,6 +65,6 @@ h1 {
     width: fit-content;
 }
 
-.projectHeader, .projectBody {
+.projectHeader, .projectBody, .home {
     padding-left: 8px;
 }
