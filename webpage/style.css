@@ -162,7 +162,3 @@ em {
 .bottomText {
   color: var(--hard);
 }
-
-iframe {
-  width: 640px;
-}
