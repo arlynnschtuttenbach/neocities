@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Telespania';
+    src: url('../fonts/Telespania.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+  --light: #ffcdf3;
+  --border: #dbffe3;
+  --medium: #e89dd6;
+  --heavy: #d17bbc;
+  --hard: #693e5e;
+  --font: 'Telespania', Fallback, sans-serif;
+}
+
+
+body {
+    font-family: var(--font);
+    color: var(--light);
+    background: var(--hard);
+}
+
+img {
+    height: 480px;
+    width: auto;
+}
